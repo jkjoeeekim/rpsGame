@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <title>rps</title>
+    </head>
+
+    <body>
+
+        <h1> Play the game! </h1>
+
+    </body>
+
+    <script>
+
+        var PlayerOne = prompt("Rock, Paper, Scissors?");
+
+        var PlayerTwo = ["Rock", "Paper", "Scissors"];
+
+            var Two = (Math.floor (Math.random() * 3));
+
+        if (PlayerOne [prompt] === PlayerTwo [Two]) {
+            alert("Its a tie!")
+        }
+
+        else if (PlayerOne === "Rock") {
+            if (PlayerTwo[Two] === "Scissors") {
+                alert("You Win!")}
+                else {alert("You Lose")}
+            }
+
+        else if (PlayerOne === "Scissors") {
+            if (PlayerTwo[Two] === "Paper") {
+                alert("You Win!")}
+                else {alert("You Lose")}
+            }
+
+        else if (PlayerOne === "Paper") {
+            if (PlayerTwo[Two] === "Rock") {
+                alert("You Win!")}
+                else {alert("You Lose")}
+            }
+        
+    </script>
+
+</html>
